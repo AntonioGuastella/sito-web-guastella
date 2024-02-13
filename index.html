@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sulla via della seta</title>
+	<link rel="stylesheet" type="text/css" href="stile/stile.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="icone/immagine.favicon.png">
+	<script src="https://kit.fontawesome.com/4059b74c24.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<META NAME="DC.Title" CONTENT="Sulla Via della Seta"/>
+	<META NAME="DC.Creator" CONTENT="Antonio Guastella"/>
+	<META NAME="DC.Subject" CONTENT="Marco Polo, luoghi, persone, articoli"/>
+	<META NAME="DC.Description" CONTENT="catalogo di luoghi e personaggi descritti ne Il Milione di Marco Polo e articoli scientifici sulla sua figura e sulla sua opera"/>
+	<META NAME="DC.Publisher" CONTENT="Github Pages"/>
+	<META NAME="DC.Date" CONTENT="13-02-2024"/>
+	<META NAME="DC.Type" CONTENT="Catalogo web"/>
+	<META NAME="DC.Format" CONTENT="Sito web"/>
+	<META NAME="DC.Source" CONTENT="Libro Il Milione di Marco Polo"/>
+	<META NAME="DC.Language" CONTENT="It"/>
+</head>
+<body>
+	<!--header-->
+	<div class="container-fluid fixed-top bg-color container-fluid-dm">
+		<div class="row">
+			<!--logo-home-->
+			<div class="col-md-2">
+				<a href="index.html"><img src="icone/logo.jpg" class="logo-dm logo-margin"></a>
+			</div>
+			<!--search-bar-->
+			<div class="col-md-2 search-padding">
+				<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="search">
+				<datalist id="datalistOptions">
+				  <option value="Marco Polo">
+				  <option value="Venezia">
+				  <option value="Costantinopoli">
+				  <option value="Cina">
+				  <option value="Il Milione">
+				</datalist>				
+			</div>
+			<!--titolo-->
+			<div class="col-md-4 title-padding">
+				<a href="#" class="logo-link"><h1 class="txt-ct txt-size-xl">Sulla Via della Seta</h1></a>
+			</div>
+			<div class="col-md-2"></div>
+			<!--login-->
+			<div class="col-md-2">
+				<a href=""><img src="icone/login.png" class="logo-dm logo-margin"></a>
+			</div>
+		</div>
+	</div>
+	
+	<!--menù laterale-->
+	<div class="sticky-md-top">
+		<button class="btn homebtn-margin txt-size-l" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></i></button>
+	</div>
+	
+	<div class="offcanvas offcanvas-start offcanvas-margin offcanvas-bg-color" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+		<div class="btn-offcanvas-margin offcanvas-btn-color-act">
+		    <a href="index.html" class="offcanvas-link"><p class="txt-ct txt-size-l" id="offcanvasScrollingLabel" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-house"></i> Home</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-timeline"></i> Linea del tempo</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-person"></i> Personaggi</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="catalogo.html" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-earth-asia"></i> Luoghi</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-book"></i> Il Milione</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-file"></i> Articoli</p>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-book-open-reader"></i> Bibliografia</p></a>
+		</div>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+
+	<!--index-->
+	<div class="div-margin">
+		<h2 class="txt-ct txt-size-xl">“Non ho scritto neppure la metà delle cose che ho visto”</h2>
+		<div class="txt-padding">
+			<p class="txt-jst txt-size-n txt-line-dm">Fin dal tempo dei Romani, innumerevoli persone e merci hanno attraversato mari e monti mettendo in comunicazione l’estremo Oriente con il Mediterraneo. Tra le figure di maggior importanza, spicca Marco Polo, mercante veneziano vissuto tra Duecento e Trecento. Insieme al padre e allo zio, arrivò alla corte di Qubilai Khan, successore di Gengis Khan nel governo del Catai (l’odierna Cina, così chiamata da Marco Polo). Negli ultimi anni, proprio il governo cinese si è prefissato di riportare in auge la via della seta, incentivando accordi internazionali a carattere commerciale.</p>
+		</div>
+	</div>
+
+	<!--mappa-->
+	<div class="map-bg-color">
+		<p class="txt-ct txt-size-l">Clicca sulle aree evidenziate per conoscere luoghi e persone incontrate da Marco Polo!</p>
+		<div class="map-padding">
+			<img src="immagini/cartina.png" class="img-ct img-dimensioni" usemap="#viaggio-di-Marco-Polo">
+				<map  id="imgmap2024112151110" name="viaggio-di-Marco-Polo">
+					<area shape="poly" alt="Italia" title="Italia" coords="166,240,170,247,170,251,169,253,170,255,169,264,167,267,164,264,163,266,164,268,162,269,158,269,159,260,160,258,159,256,160,253,158,249,156,246,157,244,160,244,164,240" href="#" target="" />
+					<area shape="poly" alt="Italia" title="Italia" coords="203,279,206,281,212,281,215,280,223,279,220,285,219,287,219,290,221,293,220,296,219,299,215,298,213,294,212,291,207,292,204,291,202,287,198,287,195,285,194,283,195,281,199,280,200,281,201,282,201,280" href="#" target="" />
+					<area shape="poly" alt="Italia" title="Italia" coords="152,205,155,205,158,200,161,199,166,199,171,204,174,204,176,211,178,219,179,218,184,224,186,226,187,225,190,231,191,230,198,239,201,240,207,241,207,242,209,245,214,248,216,248,216,251,218,255,224,255,226,257,226,263,230,270,229,273,226,272,227,276,226,278,226,280,226,282,227,281,233,276,232,272,234,271,236,270,239,266,237,263,234,261,232,258,231,255,234,252,235,250,237,249,240,250,243,251,246,256,248,257,250,253,247,251,246,248,236,240,229,239,225,236,225,235,228,234,229,231,227,230,225,231,220,231,216,229,210,225,208,221,207,215,206,210,199,206,195,202,194,197,192,193,193,193,195,193,195,191,193,189,193,186,195,184,199,184,202,182,206,182,204,176,203,176,202,175,204,171,201,171,198,171,192,167,191,164,191,164,188,164,180,168,177,168,177,172,174,171,173,172,174,174,171,175,169,170,167,172,167,175,165,175,164,179,162,178,159,172,154,176,154,179,149,178,146,181,146,184,147,186,145,189,143,191,145,193,146,194,147,197,144,197,145,200,149,204,150,202" href="#" target="" />
+					<area shape="poly" alt="Tuchia" title="Turchia" coords="335,230,329,230,327,227,323,230,320,232,323,237,322,240,321,243,319,246,319,248,323,245,326,247,329,246,332,241,338,240,342,243,351,245,351,246,345,247,344,248,345,250,344,252,334,249,333,251,326,250,320,255,319,263,322,263,325,260,327,262,326,264,325,265,327,269,326,271,329,274,329,276,326,277,323,273,323,279,329,281,332,284,330,287,333,289,334,293,338,294,339,299,341,300,343,295,346,298,349,299,353,306,361,302,363,297,367,296,374,299,381,306,387,306,394,304,398,298,402,296,405,299,410,297,413,295,415,298,411,301,412,308,415,309,416,304,419,303,419,297,422,296,425,300,432,295,441,299,446,297,451,293,462,293,468,290,470,291,472,293,474,290,480,288,483,292,487,290,490,294,491,289,489,283,486,282,488,277,482,264,483,262,485,261,487,256,481,255,478,254,478,247,469,235,464,237,456,236,451,240,442,243,439,241,430,243,425,242,425,241,419,242,414,237,411,240,408,236,408,234,399,234,399,230,395,229,395,230,383,230,366,238,366,240,362,241,358,240,348,242,347,239,343,239,336,236" href="#" target="" />
+					<area shape="poly" alt="Iraq" title="Iraq" coords="521,396,502,395,469,365,462,361,447,357,442,340,455,333,462,326,463,313,465,312,464,306,462,303,462,300,468,299,472,294,474,293,475,290,480,290,482,293,487,291,489,294,491,294,492,289,494,296,496,297,498,302,499,308,508,309,507,313,508,318,504,321,504,324,502,327,504,333,506,338,510,339,510,345,513,348,516,346,519,351,527,360,528,371,532,372,531,378,537,381,537,386,530,383,526,384,524,386,523,391" href="#" target="" />
+					<area shape="poly" alt="Afghanistan" title="Afghanistan" coords="528,278,520,271,519,267,520,262,514,259,507,266,504,269,500,271,493,266,488,259,488,263,485,264,491,278,487,280,490,284,492,288,494,290,494,294,499,298,500,304,510,305,509,309,508,313,509,317,509,319,506,322,505,333,507,336,511,337,512,344,519,344,529,361,529,370,533,371,533,376,536,380,539,384,540,382,539,377,543,376,545,382,547,383,550,381,560,394,559,397,562,398,568,413,572,413,579,418,589,426,593,425,599,427,608,426,611,420,620,421,623,432,625,438,629,438,633,442,639,441,643,444,648,441,652,445,656,443,666,447,665,437,669,432,671,432,672,428,682,427,680,420,676,419,674,408,666,405,655,387,660,375,659,366,650,365,650,357,645,347,645,342,647,340,644,336,644,327,647,323,646,314,648,309,643,299,635,299,633,291,627,291,622,287,618,288,610,281,605,281,604,278,597,280,597,281,591,281,585,284,579,291,577,291,579,293,578,296,572,295,565,296,559,299,553,299,541,290,540,289,533,289,529,283" href="#" target="" />
+					<area shape="poly" alt="India" title="India" coords="800,316,796,318,794,321,780,325,769,323,768,330,773,333,772,342,774,347,781,351,786,353,787,358,781,361,781,367,784,371,777,377,777,384,773,386,771,395,766,400,763,410,755,411,751,414,747,409,741,425,745,429,748,429,748,435,753,440,755,446,759,450,760,458,756,461,752,457,749,462,737,460,736,463,731,464,742,478,749,478,755,472,756,474,754,481,748,483,741,484,750,493,760,505,772,495,769,492,771,482,779,485,777,489,781,491,781,493,778,495,777,499,782,501,783,509,781,511,778,516,781,520,784,537,789,560,801,582,810,615,815,622,826,649,823,651,835,667,841,665,841,658,848,652,851,644,851,638,857,638,855,627,860,606,857,582,858,564,866,567,867,562,875,560,875,552,891,536,901,519,903,515,906,518,914,511,916,505,913,496,923,493,935,491,935,484,931,472,928,472,929,460,923,456,923,451,927,447,928,444,921,440,922,430,934,434,940,446,957,446,962,450,960,458,954,461,952,467,960,476,961,465,970,486,973,487,972,479,970,475,974,473,972,462,975,460,981,463,984,453,981,445,985,440,985,436,982,433,986,426,994,419,999,418,1001,407,994,405,994,400,989,397,992,394,984,392,984,398,976,394,971,397,971,401,963,403,959,413,952,414,957,425,938,426,937,427,929,425,925,417,923,410,917,411,916,416,920,429,915,432,907,431,895,427,890,427,883,418,867,420,865,416,853,412,845,403,838,401,842,385,840,380,836,378,831,373,828,372,822,367,821,367,817,357,814,356,814,350,817,350,822,354,823,351,822,345,817,344,815,338,815,328,810,328,804,320" href="" target="" />
+					<area shape="poly" alt="Birmania" title="Birmania" coords="1043,643,1050,624,1046,596,1033,578,1034,574,1039,564,1035,560,1025,545,1023,533,1023,521,1027,518,1034,517,1043,508,1048,503,1053,495,1052,492,1045,496,1042,494,1039,488,1033,488,1033,474,1030,473,1024,461,1018,461,1015,465,1016,459,1013,455,1018,439,1022,437,1016,417,1013,416,1010,408,1005,405,1002,415,1003,421,993,421,984,430,986,440,983,446,985,454,982,466,975,463,977,473,973,476,974,488,969,489,970,495,964,496,969,507,977,509,984,519,984,523,987,525,995,545,994,563,1004,570,1016,557,1017,549,1020,555,1025,561,1027,579,1031,589,1040,609,1039,615,1042,624,1039,642" href="" target="#" />
+					<area shape="poly" alt="Mongolia" title="Mongolia" coords="844,139,858,152,868,152,881,169,883,181,902,191,907,190,923,197,930,199,946,218,971,222,980,219,985,221,993,221,996,224,1011,231,1020,230,1026,233,1034,227,1050,222,1065,222,1078,208,1078,206,1072,201,1068,194,1071,189,1087,193,1093,190,1093,185,1101,185,1105,174,1110,173,1114,170,1132,169,1120,158,1108,153,1104,157,1096,154,1090,158,1086,153,1084,129,1076,129,1069,125,1061,125,1056,129,1056,135,1046,135,1042,138,1021,138,1010,127,1000,127,997,123,982,121,974,124,966,121,959,121,955,110,935,106,929,106,922,99,920,106,917,114,925,122,927,127,919,131,913,128,898,128,889,121,880,121,876,117,870,117,860,123,852,130,855,134,845,133" href="#" target="" />
+					<area shape="poly" alt="Cina" title="Cina" coords="840,139,828,149,832,162,830,166,810,164,809,182,815,187,811,191,791,191,805,211,802,218,803,228,789,237,789,241,776,242,775,251,766,248,752,257,753,268,758,275,765,274,773,290,765,292,781,302,783,309,790,309,793,316,801,312,811,325,816,326,817,337,818,341,823,344,825,354,822,356,817,352,821,363,846,383,848,379,868,390,879,398,890,406,901,409,910,411,920,407,924,409,926,414,932,408,946,411,951,412,957,411,960,403,966,399,970,393,974,392,980,393,990,389,993,394,996,402,1001,404,1004,404,1011,406,1014,413,1019,416,1024,439,1018,441,1015,452,1017,458,1024,458,1026,459,1030,472,1035,472,1035,485,1040,486,1043,492,1045,493,1051,490,1053,490,1055,496,1057,497,1060,495,1056,487,1056,483,1061,483,1065,477,1070,481,1073,480,1076,481,1080,477,1086,477,1088,471,1093,471,1102,477,1105,488,1117,493,1122,493,1122,490,1129,494,1138,494,1136,503,1143,509,1141,497,1153,494,1165,489,1171,484,1177,483,1187,476,1199,475,1199,469,1209,459,1216,450,1221,438,1227,419,1232,404,1229,387,1226,372,1222,361,1209,346,1200,330,1189,322,1191,309,1197,296,1207,295,1208,289,1189,283,1181,290,1171,282,1157,275,1155,266,1166,265,1170,256,1176,252,1176,244,1183,244,1191,249,1186,259,1190,271,1200,260,1210,256,1222,243,1223,232,1232,237,1238,237,1239,234,1246,224,1252,220,1256,216,1249,204,1243,194,1246,189,1256,192,1259,192,1259,178,1254,165,1257,158,1251,148,1241,146,1235,153,1237,158,1222,155,1218,148,1212,142,1200,135,1183,133,1161,110,1151,97,1138,87,1129,88,1122,84,1109,84,1096,87,1093,92,1095,96,1107,103,1101,107,1103,120,1108,125,1108,129,1100,127,1097,131,1086,130,1089,153,1091,155,1095,152,1103,156,1107,152,1115,153,1133,167,1132,172,1116,171,1106,177,1103,187,1095,188,1094,193,1087,195,1073,191,1071,196,1081,207,1081,210,1065,225,1049,225,1035,230,1028,236,1018,233,1007,233,994,226,991,222,977,223,967,223,945,220,928,200,918,198,909,192,898,193,885,189,880,173,872,160,865,155,858,154,846,146" href="items.html" target="" />
+				</map>
+			</div>
+		</div>
+	</div>
+
+	<!--caruosel-->	
+	<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+		<div class="carousel-indicators carousel-indicators-position">
+	    	<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+		    <div class="carousel-item active" data-bs-interval="10000">
+		        <a href="#"><img src="immagini/Xanadu.jpg" class="d-block img-crsl-margin crsl-img-dm" alt="Xanadu"></a>
+		        <div class="carousel-caption d-none d-md-block crsl-caption-margin">
+		        	<p class="txt-crsl-color txt-size-n">Città imperiariale di Xanadu</p>
+		        	<p class="txt-crsl-color txt-size-s">Residenza estiva di Kublai Khan</p>
+		        </div>
+		    </div>
+		    <div class="carousel-item" data-bs-interval="2000">
+		        <a href="#"><img src="immagini/Baghdad.jpg" class="d-block img-crsl-margin crsl-img-dm" alt="Baghdad"></a>
+		        <div class="carousel-caption d-none d-md-block crsl-caption-margin">
+		        	<p class="txt-crsl-color txt-size-n">Città di Baghdad</p>
+		        	<p class="txt-crsl-color txt-size-s">Residenza del Califfo di Baghdad</p>
+		        </div>
+		    </div>
+		    <div class="carousel-item" data-bs-interval="2000">
+		        <a href="#"><img src="immagini/Samarcanda.jpg" class="d-block img-crsl-margin crsl-img-dm" alt="Samarcanda"></a>
+		        <div class="carousel-caption d-none d-md-block crsl-caption-margin">
+		        	<p class="txt-crsl-color txt-size-n">Città di Samarcanda</p>
+		        	<p class="txt-crsl-color txt-size-s">Importante crocevia tra Est e Ovest nella Via della Seta</p>
+		        </div>
+		    </div>
+		</div>
+		    <button class="carousel-control-prev btn-crsl-margin-lf" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+		    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    	<span class="visually-hidden">Previous</span>
+		    </button>
+		    <button class="carousel-control-next btn-crsl-margin-rg" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+		    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    	<span class="visually-hidden">Next</span>
+		    </button>
+		</div>
+	</div>
+
+	<!--pre-footer-->
+	<form action="action_page.php">
+		<div class="newsletter-bg-color">
+		    <div class="container nwlt-padding-top">
+		    	<h2 class="txt-ct txt-size-l">Iscriviti alla nostra Newsletter</h2>
+		    	<p class="txt-ct txt-size-n">Ricevi aggiornamenti gratuiti sugli ultimissimi temi di geopolitica e non sulla Via della Seta!</p>
+		    </div>
+
+		    <div class="div-margin-top">
+			    <div class="container">
+			    	<div class="div-padding-bt">
+			    		<input type="text" placeholder="Nome" name="name" required class="input-margin-ct input-width">
+			    	</div>
+			    	<div class="div-padding-bt">
+			    		<input type="text" placeholder="Indirizzo email" name="mail" required class="input-margin-ct input-width">
+					</div>			    
+			    </div>
+
+			    <div class="container">
+			    	<input type="submit" value="Subscribe" class="input-margin-ct">
+			  	</div>
+			</div>
+		</div>
+	</form>
+	
+	<!--footer-->
+	<div class="conteiner-fluid bg-color">
+		<div class="row">
+			<div class="col-md-5">
+				<p class="txt-ct"><a href="">Licenze</a><p>
+				<p class="txt-ct"><a href="">Crediti</a></p>
+				<p class="txt-ct"><a href="webprojectplan.html">Web Project Plan</a></p>
+			</div class>
+			<div class="col-md-2">
+				<div class="linea-verticale"></div>
+			</div>
+			<div class="col-md-5 txt-ct">
+				<p class="txt-ct">Seguici su:</p>
+				<a href=""><i class="fa-brands fa-facebook fa-xl icone-margin"></i></a>
+				<a href=""><i class="fa-brands fa-twitter fa-xl icone-margin"></i></a>
+				<a href=""><i class="fa-brands fa-instagram fa-xl icone-margin"></i></a>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

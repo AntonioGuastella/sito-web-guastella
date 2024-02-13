@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sulla Via della Seta</title>
+	<link rel="stylesheet" type="text/css" href="stile/stile.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="icone/immagine.favicon.png">
+	<script src="https://kit.fontawesome.com/4059b74c24.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<META NAME="DC.Title" CONTENT="Sulla Via della Seta"/>
+	<META NAME="DC.Creator" CONTENT="Antonio Guastella"/>
+	<META NAME="DC.Subject" CONTENT="Marco Polo, luoghi, persone, articoli"/>
+	<META NAME="DC.Description" CONTENT="catalogo di luoghi e personaggi descritti ne Il Milione di Marco Polo e articoli scientifici sulla sua figura e sulla sua opera"/>
+	<META NAME="DC.Publisher" CONTENT="Github Pages"/>
+	<META NAME="DC.Date" CONTENT="13-02-2024"/>
+	<META NAME="DC.Type" CONTENT="Catalogo web"/>
+	<META NAME="DC.Format" CONTENT="Sito web"/>
+	<META NAME="DC.Source" CONTENT="Libro Il Milione di Marco Polo"/>
+	<META NAME="DC.Language" CONTENT="It"/>
+</head>
+<body>
+	<!-- header -->
+	<div class="conteiner-fluid fixed-top bg-color container-fluid-dm">
+		<div class="row">
+			<div class="col-md-2">
+				<a href="index.html"><img src="icone/logo.jpg" class="logo-dm logo-margin"></a>
+			</div>
+
+			<div class="col-md-2 search-padding">
+				<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="search">
+				<datalist id="datalistOptions">
+				  <option value="Marco Polo">
+				  <option value="Venezia">
+				  <option value="Costantinopoli">
+				  <option value="Cina">
+				  <option value="Il Milione">
+				</datalist>
+			</div>
+				
+			<div class="col-md-4 title-padding">
+				<a href="index.html" class="logo-link"><h1 class="txt-ct txt-size-xl">Sulla Via della Seta</h1></a>
+			</div>
+			<div class="col-md-2"></div>
+			
+			<div class="col-md-2">
+				<a href=""><img src="icone/login.png" class="logo-dm logo-margin"></a>
+			</div>
+		</div>		
+	</div>
+
+	<!-- menù laterale -->
+	<div class="sticky-md-top">
+		<button class="btn homebtn-margin txt-size-l" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></i></button>
+	</div>
+	
+	<div class="offcanvas offcanvas-start offcanvas-margin offcanvas-bg-color" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="index.html" class="offcanvas-link"><p class="txt-ct txt-size-l" id="offcanvasScrollingLabel" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-house"></i> Home</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-timeline"></i> Linea del tempo</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-person"></i> Personaggi</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-act">
+		    <a href="catalogo.html" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-earth-asia"></i> Luoghi</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-book"></i> Il Milione</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-file"></i> Articoli</p>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-book-open-reader"></i> Bibliografia</p></a>
+		</div>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+
+	<!-- items -->
+	<div class="conteiner-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				
+				<!-- breadcumps -->
+				<nav aria-label="breadcrumb" class="breadcrumb-padding-lf filtri-margin">
+				    <ol class="breadcrumb">
+				    	<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				    	<li class="breadcrumb-item active" aria-current="page">Luoghi</li>
+				    </ol>
+				</nav>
+
+				<!-- filtri -->
+				<div class="btn-group-vertical filtri-margin">
+					<p class="txt-size-n">Ordina per:</p>
+					<button class="btn btn-border btn-color-act txt-size-n"><a class="offcanvas-link" href="#">A-Z</a></button>
+					<button class="btn btn-border btn-color txt-size-n"><a href="#" class="offcanvas-link">Z-A</a></button>
+					<button class="btn btn-border btn-color txt-size-n"><a href="#" class="offcanvas-link">Importanza</a></button>
+					<div class="dropdown">
+					    <button class="btn btn-border btn-color txt-size-n dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+					    Macroaree
+					    </button>
+					    <ul class="dropdown-menu txt-size-n btn-color" aria-labelledby="dropdownMenuButton1">
+					    	<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">Afghanistan</a></li>
+					    	<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">Birmamia</a></li>
+					    	<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="items.html">Cina</a></li>
+					    	<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">India</a></li>
+							<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">Iraq</a></li>
+							<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">Italia</a></li>
+							<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">Mongolia</a></li>
+							<li><a class="dropdown-item txt-size-s offcanvas-btn-color-hv offcanvas-link" href="#">Turchia</a></li>
+					    </ul>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- cards -->
+			<div class="col-md-10">
+				<div class="conteiner">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Acri.jpg" class="card-img-top card-img-dm" alt="Città di Acri">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Acri</h5>
+							    	<p class="card-text txt-size-s">Città riconquistata durante le Crociate e punto di partenza del viaggio di Marco Polo</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>							
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Baghdad.jpg" class="card-img-top card-img-dm" alt="Città di Baghdad">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Baghdad</h5>
+							    	<p class="card-text txt-size-s">Città sede del Califfo di Baghdad, visitata da Marco Polo qualche decennio dopo essere stata conquistata dai Mongoli</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Gerusalemme.jpg" class="card-img-top card-img-dm" alt="Città di Gerusalemme">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Gerusalemme</h5>
+							    	<p class="card-text txt-size-s">Città riconquistata nella Prima Crociata, Marco Polo vi fa visita per poi proseguire inoltrandosi nel Medio Oriente</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Hormuz.jpg" class="card-img-top card-img-dm" alt="Città di Hormuz">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Hormuz</h5>
+							    	<p class="card-text txt-size-s">Città dalla posizione geografica rilevante per gli scambi marittimi con l'India e la Cina, Marco Polo vi sosta sia all'andata che al ritorno del suo viaggio</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>							
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Istanbul.jpg" class="card-img-top card-img-dm" alt=">Città di Istanbul">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Istanbul</h5>
+							    	<p class="card-text txt-size-s">Città al tempo "Costantinopoli", era una sosta necessaria per poter arrivare nel Levante</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Karakorum.jpg" class="card-img-top card-img-dm" alt="Città di Karakorum">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Karakorum</h5>
+							    	<p class="card-text txt-size-s">Città fondata da Gengis Khan come capitale del suo vasto impero, al tempo di Marco Polo fu rimpiazzata per la nuova città di Pechino</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Laiazzo.jpg" class="card-img-top card-img-dm" alt="Città di Laiazzo">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Laiazzo</h5>
+							    	<p class="card-text txt-size-s">Città portuale sulle coste meridionali dell'odierna Turchia, importante per il grande affluso di mercanti e mercanzie orientali</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>							
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Quanzhou.jpg" class="card-img-top card-img-dm" alt="Città di Quanzhou">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Quanzhoou</h5>
+							    	<p class="card-text txt-size-s">Città posta sulla sfonda orientale cinese, grande centro mercantile che accoglie comunità straniere e di diverse confessioni religiose</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="card card-margin" style="width: 18rem;">
+							    <img src="immagini/Samarcanda.jpg" class="card-img-top card-img-dm" alt="Città di Samarcanda">
+							    <div class="card-body card-body-dm">
+							    	<h5 class="card-title txt-size-n">Città di Samarcanda</h5>
+							    	<p class="card-text txt-size-s">Città posta al centro dei commerci della Via della Seta, Marco Polo vi fa visita per conto di Kubilai KhanS</p>
+								    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+	  						    </div>
+							</div>
+						</div>
+					</div>
+					<nav aria-label="Page navigation example">
+					    <ul class="pagination justify-content-center">
+					    	<li class="page-item disabled">
+					        	<a class="page-link">Previous</a>
+					    	</li>
+					    	<li class="page-item active"><a class="page-link" href="#">1</a></li>
+					    	<li class="page-item"><a class="page-link" href="#">2</a></li>
+					    	<li class="page-item"><a class="page-link" href="#">3</a></li>
+					    	<li class="page-item">
+					        	<a class="page-link" href="#">Next</a>
+					    	</li>
+					    </ul>
+					</nav>
+				</div>							
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="conteiner-fluid bg-color">
+		<div class="row">
+			<div class="col-md-5">
+				<p class="txt-ct"><a href="">Licenze</a><p>
+				<p class="txt-ct"><a href="">Crediti</a></p>
+				<p class="txt-ct"><a href="webprojectplan.html">Web Project Plan</a></p>
+			</div class>
+			<div class="col-md-2">
+				<div class="linea-verticale"></div>
+			</div>
+			<div class="col-md-5 txt-ct">
+				<p class="txt-ct">Seguici su:</p>
+				<a href=""><i class="fa-brands fa-facebook fa-xl icone-margin"></i></a>
+				<a href=""><i class="fa-brands fa-twitter fa-xl icone-margin"></i></a>
+				<a href=""><i class="fa-brands fa-instagram fa-xl icone-margin"></i></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

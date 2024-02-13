@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sulla Via della Seta</title>
+	<link rel="stylesheet" type="text/css" href="stile/stile.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="icone/immagine.favicon.png">
+	<script src="https://kit.fontawesome.com/4059b74c24.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+	<META NAME="DC.Title" CONTENT="Sulla Via della Seta"/>
+	<META NAME="DC.Creator" CONTENT="Antonio Guastella"/>
+	<META NAME="DC.Subject" CONTENT="Marco Polo, luoghi, persone, articoli"/>
+	<META NAME="DC.Description" CONTENT="catalogo di luoghi e personaggi descritti ne Il Milione di Marco Polo e articoli scientifici sulla sua figura e sulla sua opera"/>
+	<META NAME="DC.Publisher" CONTENT="Github Pages"/>
+	<META NAME="DC.Date" CONTENT="13-02-2024"/>
+	<META NAME="DC.Type" CONTENT="Catalogo web"/>
+	<META NAME="DC.Format" CONTENT="Sito web"/>
+	<META NAME="DC.Source" CONTENT="Libro Il Milione di Marco Polo"/>
+	<META NAME="DC.Language" CONTENT="It"/>
+</head>
+<body>
+<!-- header -->
+	<div class="conteiner-fluid fixed-top bg-color container-fluid-dm">
+		<div class="row">
+			<div class="col-md-2">
+				<a href="index.html"><img src="icone/logo.jpg" class="logo-dm logo-margin"></a>
+			</div>
+
+			<div class="col-md-2 search-padding">
+				<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="search">
+				<datalist id="datalistOptions">
+				  <option value="Marco Polo">
+				  <option value="Venezia">
+				  <option value="Costantinopoli">
+				  <option value="Cina">
+				  <option value="Il Milione">
+				</datalist>
+			</div>
+				
+			<div class="col-md-4 title-padding">
+				<a href="index.html" class="logo-link"><h1 class="txt-ct txt-size-xl">Sulla Via della Seta</h1></a>
+			</div>
+			<div class="col-md-2"></div>
+			
+			<div class="col-md-2">
+				<a href=""><img src="icone/login.png" class="logo-dm logo-margin"></a>
+			</div>
+		</div>		
+	</div>
+
+	<!-- menù laterale -->
+	<div class="sticky-md-top">
+		<button class="btn homebtn-margin txt-size-l" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></i></button>
+	</div>
+	
+	<div class="offcanvas offcanvas-start offcanvas-margin offcanvas-bg-color" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="index.html" class="offcanvas-link"><p class="txt-ct txt-size-l" id="offcanvasScrollingLabel" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-house"></i> Home</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-timeline"></i> Linea del tempo</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-person"></i> Personaggi</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-act">
+		    <a href="catalogo.html" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-earth-asia"></i> Luoghi</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-book"></i> Il Milione</p></a>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-file"></i> Articoli</p>
+		</div>
+		<div class="btn-offcanvas-margin offcanvas-btn-color-hv">
+		    <a href="" class="offcanvas-link"><p class="txt-ct txt-size-l"><i class="fa-solid fa-book-open-reader"></i> Bibliografia</p></a>
+		</div>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+
+	<!-- testo -->
+	<div class="conteiner-fluid">
+		<div class="row">
+			<div class="col-md-2">
+				
+				<!-- breadcumps -->
+				<nav aria-label="breadcrumb" class="breadcrumb-padding-lf filtri-margin">
+				    <ol class="breadcrumb">
+				    	<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				    	<li class="breadcrumb-item"><a href="catalogo.html">Luoghi</a></li>
+				    	<li class="breadcrumb-item"><a href="items.html">Cina</a></li>
+				    	<li class="breadcrumb-item active" aria-current="page">Xanadu</li>
+				    </ol>
+				</nav>
+			</div>
+
+			<div class="col-md-7">
+				<h2 class="txt-size-l">Xanadu</h2>
+				<p class="txt-size-n">La città di Xanadu (“Giandu” come detta da Marco Polo) deve la sua importanza per essere stata una delle capitali dell’Impero cinese sotto la dinastia degli Yuan. Di fatto la città, di poco distante dall’odierna Pechino, fu fatta costruire da <a href="#" title="Qubilai Khan">Qubilai Khan</a> proprio quando fu visitata da Marco Polo. </p>
+				<p class="txt-size-n">Il mercante veneziano precisa che la città è la residenza estiva del Gran Khan, che risiede nel palazzo fatto costruire appositamente. Marco Polo rimase abbastanza impressionato dal palazzo imperiale tanto da descriverlo a fondo al capitolo 74:</p>
+				<p class="txt-size-n">“uno palagio di marmo e d’altre ricche pietre; le sale e le camere sono tutte dorate e è molto bellissimo marivigliosamente. E atorno a questo palagio è uno muro ch’è grande 15 miglia, e quivi àe fiumi e fontane e prati assai. E quivi tiene lo Grande Kane di molte fatte bestie, cioè cerbi, dani e cavriuoli, per dare mangiare a’ gerfalchi e a’ falconi ch’egli tiene in muda: in quello lugo egli v’à bene 200 gerfalchi”.</p>
+				<p class="txt-size-n">Naturalmente una delle motivazioni della fama del suo racconto risiede nell’esagerazione, come qui si nota, e nella presenza dell’elemento magico che viene presentato poco più avanti:</p>
+				<p class="txt-size-n">“egli viene uno male tempo, egli [ndr Qubilai] àe astronomi e incantatori, e fa[nno] che ’l male tempo non viene in sul suo palagio. E questi savi uomini son chiamati <a href="#" title="Popolo dei Tebot">Tebot</a>, e sanno piú d’arti di diavoli che tutta l’altra gente, e fanno credere a le genti che questo aviene per santità”.</p>
+				<p class="txt-size-n">Marco Polo ci fa sapere che nel giardino immenso del palazzo vi è un secondo palazzo “di canne, ma è tutto dentro innorato, e è lavorato molto sottilemente a besti’ e a uccegli innorat[i]”.</p>
+				<p class="txt-size-n">Per di più, riporta una ragione curiosa, a cui difficilmente si può credere, sul perché Qubilai Khan risieda solo per la stagione estiva:</p>
+				<p class="txt-size-n">“Egli è vero ch’egli àe una generazione di cavagli bianchi e di giumente bianche come neve, senza niuno altro colore - e sono in quantità bene di 10.000 giumente -, e lo latte di queste giumente bianche no può bere niuno se non di schiatta emperiale. Ben è un’altra generazioni di gente chiamata <a href="#" title="Popolo degli Oriat">Oriat</a>, che ne possono bere, ché Cinghi Kane gli diede quella grazia per una battaglia che vinsero co lui jadis. E quando queste bestie vanno pascendo, gli è fatto tanto onore, che no è sí grande barone che passasse per queste bestie, per no scioperalle del pascere. E gli stronomi e gl’idoli ànno detto al Grande Kane che di questo latte si dee versare ogn’anno a’ 28 die d’agosto per l’aria e per la terra, acciò che gli spiriti e gl’idoli n’abbiano a bere la loro parte, acciò che gli salvino loro famiglie, uccegli e ogne loro cosa”.</p>
+			</div>
+
+			<!-- card-laterali -->
+			<div class="col-md-3">
+				<div class="card card-margin" style="width: 18rem;">
+				    <img src="immagini/XanaduCina.png" class="card-img-top">
+				    <div class="card-body">
+				    	<p class="card-text txt-size-s">La posizione di Xanadu nell'odierna Cina</p>
+				   </div>
+				</div>
+				<div class="card card-margin" style="width: 18rem;">
+				    <img src="immagini/XanaduZoom.png" class="card-img-top">
+				    <div class="card-body">
+				    	<p class="card-text txt-size-s">La posizione di Xanadu nell'odierna regione cinese della Mongolia Interna </p>
+				   </div>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+	<!-- dati-contestuali -->
+	<div class="conteiner-fluid">
+		<div class="map-bg-color navcont-dm">
+			<p class="txt-ct txt-size-l txt-cont-padding">Prendi in considerazione anche:</p>
+			<div class="row  card-cont-padding">
+				<div class="col-md-4">
+					<div class="card card-cont-margin" style="width: 18rem;">
+					    <img src="immagini/Chengdu.jpg" class="card-img-top card-img-dm" alt="Città di Chengdu">
+					    <div class="card-body card-body-dm">
+					    	<h5 class="card-title txt-size-n">Città di Chengdu</h5>
+					    	<p class="card-text txt-size-s">Vecchia residenza imperiale, sorge su una distesa che ne permette il facile transito</p>
+						    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+		  			    </div>
+					</div>							
+				</div>
+				
+				<div class="col-md-4">
+					<div class="card card-cont-margin" style="width: 18rem;">
+					    <img src="immagini/QubilaiKhan.jpg" class="card-img-top card-img-dm" alt="Qubilai Khan">
+					    <div class="card-body card-body-dm">
+					    	<h5 class="card-title txt-size-n">Qubilai Khan</h5>
+					    	<p class="card-text txt-size-s">Khan dei mongoli in Cina, ospitò Marco Polo e gli affidò numerosi incarichi diplomatici e amministrativi</p>
+						    <a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+		  			    </div>
+					</div>							
+				</div>
+
+				<div class="col-md-4">
+					<div class="card card-cont-margin" style="width: 18rem;">
+					    <img src="immagini/Quanzhou.jpg" class="card-img-top card-img-dm" alt="Città di Quanzhou">
+						 <div class="card-body card-body-dm">
+				    		<h5 class="card-title txt-size-n">Città di Quanzhou</h5>
+				    		<p class="card-text txt-size-s">Città posta sulla sfonda orientale cinese, grande centro mercantile che accoglie comunità straniere e di diverse confessioni religiose</p>
+					    	<a href="#" class="btn offcanvas-bg-color btn-width card-link">Scopri di più</a>
+				    	</div>
+				    </div>			
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="conteiner-fluid bg-color">
+		<div class="row">
+			<div class="col-md-5">
+				<p class="txt-ct"><a href="">Licenze</a><p>
+				<p class="txt-ct"><a href="">Crediti</a></p>
+				<p class="txt-ct"><a href="webprojectplan.html">Web Project Plan</a></p>
+			</div class>
+			<div class="col-md-2">
+				<div class="linea-verticale"></div>
+			</div>
+			<div class="col-md-5 txt-ct">
+				<p class="txt-ct">Seguici su:</p>
+				<a href=""><i class="fa-brands fa-facebook fa-xl icone-margin"></i></a>
+				<a href=""><i class="fa-brands fa-twitter fa-xl icone-margin"></i></a>
+				<a href=""><i class="fa-brands fa-instagram fa-xl icone-margin"></i></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
